@@ -1,0 +1,47 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# ChromaDB local database
+chroma_db/
+
+# Model cache / generated model files
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Streamlit
+.streamlit/secrets.toml
